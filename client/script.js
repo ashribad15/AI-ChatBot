@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('http://localhost:5173/', { // change this to your server URL
+    const response = await fetch('https://codex-hb6u.onrender.com', { // changed this to your server URL
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
